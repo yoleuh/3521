@@ -1,0 +1,56 @@
+#Prior probability of A
+A,
+F,0.1
+T,0.9
+,,
+#Probability of B given A
+A,B
+F,0.2
+T,0.8
+,,
+#Probability of C given A
+A,C
+F,0.4
+T,0.6
+,,
+#Probability of D given A
+A,D
+F,0.3
+T,0.7
+,,
+#Probability of E given B and C
+B,C,E
+F,F,0.1
+F,T,0.9
+T,F,0.2
+T,T,0.8
+,,
+#Probability of F given C and D
+C,D,F
+F,F,0.5
+F,T,0.5
+T,F,0.6
+T,T,0.4
+,,
+#Probability of I given D
+D,I
+F,0.4
+T,0.6
+,,
+#Probability of G given D and I
+D,I,G
+F,F,0.3
+F,T,0.7
+T,F,0.4
+T,T,0.6
+,,
+#Probability of H given E, F, and G
+E,F,G,H
+F,F,F,0.1
+F,F,T,0.9
+F,T,F,0.2
+F,T,T,0.8
+T,F,F,0.3
+T,F,T,0.7
+T,T,F,0.4
+T,T,T,0.6
